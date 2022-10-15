@@ -30,28 +30,35 @@ textarea{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding: 220px;
-}
-
-.cabecalho{
-    height: 160px;
-    background-color: #FFFFFF;
+    height: 800px;
+    margin: 0px;
 }
 
 /* Início */
+.barra-cabecalho{
+    background-color: #FFFFFF;
+    padding: 10px 0px;
+    border-bottom: 3px inset #3B9E3E;
+    height: 80px;
+}
+
+.img-logo{
+    width: 180px;
+    height: 90px;
+    background-color: rebeccapurple;
+}
 
 .item-cabecalho{
-width: 113.88px;
-height: 39px;
-left: 323.92px;
-top: 30px;
-
-font-family: '?????';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 12px;
-text-align: center;
-
-color: #3B9E3E;
+    margin: 0px 0px 50px 20px;
+    font-weight: bold;
+    font-size: 16px;
+    display: inline-block;
+    background-color: #333;
+    color: #3B9E3E;
+    display: flex;
 }
+.topicos{
+    margin: 0px 5px 0px 30px;
+    color: #3B9E3E;
+}
+
