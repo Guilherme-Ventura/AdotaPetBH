@@ -1,0 +1,57 @@
+/*reset*/
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0ebf8;
+}
+h1,h2,h3,h4,h5{
+    color: #333;
+}
+p, label{
+    color: #444;
+}
+input{
+    border: 1px solid transparent;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0px;
+}
+input[type=text], input[type=number], input[type=date], input[type=file]{
+    width: 400px;
+}
+textarea{
+    padding: 10px 5px;
+    width: 400px;
+}
+
+/**/
+#main-container{
+    background-image: url('../AdotaPetBH/Img/ImgDog.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 220px;
+}
+
+.cabecalho{
+    height: 160px;
+    background-color: #FFFFFF;
+}
+
+/* Início */
+
+.item-cabecalho{
+width: 113.88px;
+height: 39px;
+left: 323.92px;
+top: 30px;
+
+font-family: '?????';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 12px;
+text-align: center;
+
+color: #3B9E3E;
+}
