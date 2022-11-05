@@ -125,6 +125,7 @@ section.main {
     margin: 30px;
     color: #3B9E3E;
     font-style: bold;
+    font-family: Poppins;
 }
 
 .topicos-rodape{
@@ -134,9 +135,12 @@ section.main {
     font-size: 10px;
     display: flex;
     text-align:center;
+    font-family: Poppins;
 }
 
 .topicos-rodape .conteudo{
     color: #d9d9d9;
     font-style: bold;
+    font-family: Poppins;
+    margin: 5%;
 }
