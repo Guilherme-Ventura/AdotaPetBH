@@ -128,19 +128,125 @@ section.main {
     font-family: Poppins;
 }
 
-.topicos-rodape{
+.topicos-rodape {
     background-color: #3B9E3E;
     padding: 10px 0;
     border-top: 2px inset #d9d9d9;
     font-size: 10px;
     display: flex;
-    text-align:center;
+    text-align: center;
     font-family: Poppins;
 }
 
-.topicos-rodape .conteudo{
+.topicos-rodape .conteudo {
     color: #d9d9d9;
     font-style: bold;
     font-family: Poppins;
     margin: 5%;
 }
+
+.login-modal {
+    z-index: 3;
+    display: none;
+    padding-top: 100px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.login-modal-content {
+    margin: auto;
+    background-color: #fff;
+    position: relative;
+    padding: 0;
+    outline: 0;
+    width: 50px;
+}
+
+.login-animate-top {
+    position: relative;
+    animation: animatetop 0.4s;
+}
+
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0;
+    }
+
+    to {
+        top: 0;
+        opacity: 1;
+    }
+}
+
+.login-card-4,
+.login-hover-shadow:hover {
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.login-container,
+.login-panel {
+    padding: 0.01em 16px;
+}
+
+.login-panel {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.login-teal,
+.login-hover-teal:hover {
+    color: #fff !important;
+    background-color: #3B9E3E !important;
+    width: 20%;
+    height: 50%;
+}
+
+.login-display-topright {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.login-button-modal {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.input-form {
+    border-radius: 25px !important;
+    margin: 2% 16%;
+    background-color: #53c757;
+    border-color: #fff;
+    font-family: Poppins;
+    width: 70%;
+}
+
+.input-checkbox {
+    font-family: Poppins;
+    font-size: 9px;
+}
+
+.cadastro-teal,
+.cadastro-hover-teal:hover {
+    color: #fff !important;
+    background-color: #3B9E3E !important;
+    width: 43%;
+    height: 75%;
+}
+

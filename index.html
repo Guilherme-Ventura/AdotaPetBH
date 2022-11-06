@@ -38,17 +38,72 @@
                         FAQ
                     </a>
                     <span class="buttons">
-                        <a class="button-login" href="#">
+                        <button class="button-login" href="#" onclick="document.getElementById('id01').style.display='block'">
                             Login
-                        </a>
-                        <a class="button-cadastre-se" href="#">
+                        </button>
+                        <button class="button-cadastre-se" href="#" onclick="document.getElementById('id02').style.display='block'">
                             Cadastre-se
-                        </a>
+                        </button>
                     </span>
                 </div>
             </div>
         </div>
     </header>
+
+    <!-- Parte que aparece o modal para logar  -->
+
+    <div id="id01" class="login-modal">
+        <div class="login-modal-content login-animate-top login-card-4">
+            <header class="login-container login-teal"> 
+                <span onclick="document.getElementById('id01').style.display='none'" 
+                class="login-button-modal login-display-topright">&times;
+                </span>
+                <h2>Acesse sua conta</h2>
+                <div>
+                    <form>
+                        <input placeholder="E-mail/CPF/CNPJ" class="input-form">
+                        <input placeholder="Senha" class="input-form">
+                    </form>
+                    <form>
+                        <input type="checkbox" checked="checked">
+                        <label class="input-checkbox">Mantenha-me conectado</label>
+                        <input type="checkbox">
+                        <label class="input-checkbox">Esqueci minha senha</label>
+                    </form>
+                </div>
+                <span class="buttons">
+                    <a class="button-login" href="#">Login</a>
+                </span>
+            </header>
+        </div>
+    </div>
+
+    <!-- Parte que aparece o modal para cadastrar  -->
+
+    <div id="id02" class="login-modal">
+        <div class="login-modal-content login-animate-top login-card-4">
+            <header class="login-container cadastro-teal"> 
+                <span onclick="document.getElementById('id02').style.display='none'" 
+                class="login-button-modal login-display-topright">&times;
+                </span>
+                <h2>Crie sua conta! É fácil, rápido e gratuito.</h2>
+                <a>Com a sua conta você terá acesso a conteúdos e serviços exclusivos.</a>
+                <div>
+                    <form>
+                        <input placeholder="Nome Completo" class="input-form">
+                        <input placeholder="CPF ou CNPJ" class="input-form">
+                        <input placeholder="E-mail" class="input-form">
+                        <input placeholder="Senha" class="input-form">
+                        <input placeholder="Confirme sua senha" class="input-form">
+                    </form>
+                </div>
+                <span class="buttons">
+                    <a class="button-login" href="#">Cadastrar</a>
+                </span>
+            </header>
+        </div>
+    </div>
+
     <section class="main">
 
     </section>
@@ -82,16 +137,6 @@
                 Primeiro, porque ao colocar o animal para doar, a ideia é gerar o mínimo de trauma possível no animal. 
                 Segundo, porque saber onde deixar o animal para adoção é fundamental nesse momento.</p>
         </div>
-        <!-- <div class="topicos-conteudo">
-            <i class=""></i>
-            <h2>Você sabe a importancia
-                de adotar um animal?
-                A gente te fala.</h2>
-            <p>Adotar um animal é uma grande responsabilidade e não é só porque você precisará cuidar dele em casa.
-                A adoção é capaz de salvar a vida de um bichinho que poderia estar nas ruas, abandonado,
-                morrendo de fome e possivelmente sofrendo de maus tratos.</p>
-        </div> -->
-
     </div>
     <footer class="topicos-rodape">
         <div class="conteudo">
