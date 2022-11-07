@@ -95,6 +95,7 @@ header {
     border: 1px solid;
     border-color: #3B9E3E;
     text-align: center;
+    font-family: Poppins;
 }
 
 .buttons .button-cadastre-se:hover {
@@ -281,4 +282,27 @@ section.main {
 .texto-quem-somos {
     text-align: center;
     line-height: 36px;
+}
+
+/* estilização do quero adotar */
+/* #myInput {
+    background-image: url('/css/searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+  } */
+
+.input-form-adocao {
+    border-radius: 25px !important;
+    background-color: #fff;
+    border-color: #3B9E3E;
+    font-family: Poppins;
+    width: 16%;
+    background-image: url('/css/searchicon.png') !important;
+    /* background-position: 10px 10px; */
+    /* background-repeat: no-repeat; */
 }
