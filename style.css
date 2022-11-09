@@ -261,6 +261,11 @@ section.main {
     font-family: Poppins;
     width: 70%;
 }
+::placeholder {
+    color:rgb(0, 0, 0);
+    font-family: Poppins;
+    font-weight: 500;
+}
 
 .topico-doacao {
     background-color: #FFFFFF;
